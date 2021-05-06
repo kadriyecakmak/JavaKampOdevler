@@ -11,7 +11,7 @@ public class Main {
 		neroCustomerManager.Save(kadriye);
 		
 		StarbucksCustomerManager starbucksCustomerManager = new StarbucksCustomerManager(new MernisServiceAdaptor());
-		starbucksCustomerManager.Save(melike);
+		starbucksCustomerManager.Save(kadriye);
 		
 
 	}
