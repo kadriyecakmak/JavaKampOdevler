@@ -1,4 +1,4 @@
-package gun5Odev1.googleAuth.googleAuthManager;
+package gun5Odev1.googleAuth;
 
 import gun5Odev1.entities.concretes.User;
 

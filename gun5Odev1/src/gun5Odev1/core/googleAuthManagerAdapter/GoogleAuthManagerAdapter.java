@@ -2,7 +2,7 @@ package gun5Odev1.core.googleAuthManagerAdapter;
 
 import gun5Odev1.core.authService.AuthService;
 import gun5Odev1.entities.concretes.User;
-import gun5Odev1.googleAuth.googleAuthManager.GoogleAuthManager;
+import gun5Odev1.googleAuth.GoogleAuthManager;
 
 public class GoogleAuthManagerAdapter implements AuthService {
 	private final GoogleAuthManager googleAuthManager;

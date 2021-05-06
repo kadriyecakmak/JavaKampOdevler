@@ -7,7 +7,7 @@ import gun5Odev1.business.concretes.UserManager;
 import gun5Odev1.core.googleAuthManagerAdapter.GoogleAuthManagerAdapter;
 import gun5Odev1.dataAccess.concretes.InMemoryUserDao;
 import gun5Odev1.entities.concretes.User;
-import gun5Odev1.googleAuth.googleAuthManager.GoogleAuthManager;
+import gun5Odev1.googleAuth.GoogleAuthManager;
 
 public class Main {
 
@@ -50,7 +50,7 @@ public class Main {
 			
 			ArrayList<User> users = new ArrayList<>();
 			UserManager userManager = new UserManager(new InMemoryUserDao(users));
-			User user = new User(2, "Kadriye", "Çakmak", "cakmakkadriye45@gmail.com", "115566");
+			User user = new User(1, "Kadriye", "Çakmak", "cakmakkadriye45@gmail.com", "115566");
 			User user2 = new User(2, "Melike", "Öztekin", "cakmakkadriye45@gmail.com", "115566");
 			userManager.register(user);
 			userManager.register(user2);
